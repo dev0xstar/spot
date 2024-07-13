@@ -1,0 +1,15 @@
+{
+  "name": "@ampleforthorg/spot-monorepo",
+  "description": "A collection of everything spot",
+  "repository": "git@github.com:ampleforth/spot.git",
+  "author": "eng@fragments.org",
+  "license": "GNUV3",
+  "private": true,
+  "packageManager": "yarn@3.2.1",
+  "workspaces": [
+    "spot-contracts",
+    "spot-vaults",
+    "spot-subgraph",
+    "spot-staking-subgraph"
+  ]
+}
